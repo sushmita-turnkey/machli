@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1274a3ec-b89f-4d61-85dd-0d9be088e31f"
+      }
+    }
   },
   "name": "machli"
 }

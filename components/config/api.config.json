@@ -1,0 +1,54 @@
+{
+    "Base_URL": "https://www.machli.reliancefoundation.org/",
+    "Dev_Base_URL": "https://www.machli.reliancefoundation.org/",
+    "Staging_Base_URL": "https://www.machli.reliancefoundation.org/",
+    "AIX_Base_URL": "https://www.machli.reliancefoundation.org/",
+    "Machli_APP_ID": "3274n832x43829nx33x2",
+    "DefaultSetting": {
+        "osf_distance_in_kilometer": 20
+    },
+    "Get_User_Profiles_API": {
+        "urlPath": "guru/users/get/",
+        "method": "GET"
+    },
+    "New_User_Registration": {
+        "urlPath": "guru/users/create/",
+        "method": "POST"
+    },
+    "User_Feedback": {
+        "urlPath": "guru/query/post/feedback/",
+        "method": "POST"
+    },
+    "Get_OSF": {
+        "urlPath": "guru/query/get/response/",
+        "method": "POST"
+    },
+    "Get_Landing_Site": {
+        "urlPath": "osf/engine/get_nearest_landing_centres/",
+        "method": "POST"
+    },
+    "Get_Audio_Clip": {
+        "urlPath": "speech/lego_speech/text_to_speech/",
+        "method": "POST"
+    },
+    "Get_Text_To_Speech": {
+        "urlPath": "guru/speech/text_to_speech/",
+        "method": "POST"
+    },
+    "Register_Device_For_Notification": {
+        "urlPath": "notifications/api/device",
+        "method": "POST"
+    },
+    "Get_App_Config": {
+        "urlPath": "guru/localisation/get_config/",
+        "method": "POST"
+    },
+    "Get_App_Localization": {
+        "urlPath": "guru/localisation/get_localisation/",
+        "method": "POST"
+    },
+    "Get_PFZ":{
+        "urlPath": "osf/pfz/get_pfz/",
+        "method": "POST"
+    }
+}
